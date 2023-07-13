@@ -1,0 +1,91 @@
+body{
+    background-image: url(background.jpg);
+    background-size: 100%;
+}
+
+.container{
+    background-color: rgba(4, 4, 4, 0.45);
+    height: 80px;
+    width: 350px;
+    padding: 300px;
+    margin: 20px;
+    border-radius: 2%;
+    position: relative; left: 325px;
+}
+
+.logo{
+    height: 100px;
+    position: relative;
+    bottom: 225px;
+}
+
+.titolo{
+    height: 125px;
+    position: relative;
+    bottom: 225px;
+    color: rgb(24, 218, 24);
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row{
+    background-color: rgb(18, 225, 18);
+    height: 35px;
+    width: 800px;
+    position: relative;
+    bottom: 310px;
+    right: 200px;
+    text-align: center;
+}
+
+.lista{
+    position: relative;
+    bottom: 310px;
+    right: 200px;
+    display: inline-block;
+}
+.nome{
+    color: white;
+    position: relative;
+    display: inline-block;
+    line-height: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.freccia{
+    color: white;
+    display: inline-block;
+    line-height: 1px;
+}
+
+.Via{
+    display: inline-block;
+    color: white;
+    line-height: 1px;
+}
+
+.carica{
+    color: white;
+}
+
+#arancione{
+    background: rgb(249, 191, 85);
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#verde{
+    background: rgb(23, 182, 23);
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#rosso{
+    background: rgb(212, 55, 55);
+    width: 125px;
+    height: 25px;
+    border-radius: 5px;
+}
